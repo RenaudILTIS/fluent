@@ -57,27 +57,17 @@
 			</div>
 		</nav>
 
-	<!--	<section class="container mt-5 mb-5">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 my-auto text-center padding40"> -->
-				
 		<div class="container">		
 					<?= $Wcms->page('content') ?>
 		</div>		
-				
-	<!--			</div>
-			</div>
-		</section>  -->
 
-		<div class="h-05"></div>
-
-		<footer class="mt-4 footer">
-			<div class="container-fluid py-3 text-right">
+		<footer class="footer">
+			<div class="container-fluid py-3">
 				<?= $Wcms->footer() ?>
 			</div>
 		</footer>
 
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
 		<?= $Wcms->js() ?>
